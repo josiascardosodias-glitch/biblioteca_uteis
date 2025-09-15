@@ -37,7 +37,4 @@ def dollar(valor=0, moeda='US$'):
 def aumentar(valor=0, taxa=0):
     return valor + (valor * taxa / 100)
 
-def diminuir(valor=0, taxa=0):
-    return valor - (valor * taxa / 100)
-
-print(f'um salário de {real(1000)} com aumento de 10% é de {real(aumentar(1000, 10))}')
+def diminuir(valor=0, taxa=0):    return valor - (valor * taxa / 100)
